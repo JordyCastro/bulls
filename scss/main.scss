@@ -2,6 +2,7 @@
 $azul : #17256B;
 $rojo : #A71135;
 $blanco : white;
+$blanco2 : #DDD;
 $negro : black;
 
 @mixin font-face($weight) {
@@ -10,6 +11,7 @@ $negro : black;
     font-weight: $weight!important;
     font-style: normal;
   }
+img{width: 100%;}
 *{
     padding: 0;
     margin: 0;
